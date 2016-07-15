@@ -1,4 +1,4 @@
-#####This is a demonstration project showing how to initiale an OAuth flow from an Add-on.  
+#####This is a demonstration project showing how to initiate an OAuth flow from an Add-on.  
 ####Setup  
 1) Add the library `MswhXl8fVhTFUH_Q3UOJbXvxhMjh3Sh48`
 2) Run the function `logRedirectUri` found in OAuth.gs.  Record the returned value for later.  This is a work around for a current issue with the IDE displaying the incorrect project id.  
