@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <style>
+      #status{
+          width:90%;
+          margin-left:auto;
+          margin-right:auto;
+            } 
+            
+    </style>
+  </head>
+  <body>
+    <div id="status">
+      <p><?=message?><p>
+      <?if(hasButton){?><a class="button" onclick="google.script.host.close()">close</a><?}else{?>
+      <p>You may close this window now</p><?}?>      
+    </div>
+  </body>
+</html>
+
